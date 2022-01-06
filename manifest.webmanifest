@@ -1,0 +1,30 @@
+{
+  "name": "Adlemas Assistent",
+  "short_name": "Adlemas Assistent",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "An Glass Assistent for Adlemas Glass OS (BETA version).",
+  "icons": [{
+    "src": "images/touch/adlemas32x32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  },{
+    "src": "images/touch/adlemas48x48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "images/touch/adlemas128x128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }],
+	"type": "privileged",
+  "permissions": {
+    "audio-capture" : {
+        "description" : "Audio capture"
+    },
+    "speech-recognition" : {
+        "description" : "Speech recognition"
+    }
+  }
+}
